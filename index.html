@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VelourClean.nl – Premium Schoonmaakdiensten</title>
+  <meta name="description" content="Professionele schoonmaakdiensten in Noordwijk en omgeving. VelourClean biedt diepe en grondige woning-, vakantiehuis- en opleveringsschoonmaak met premium kwaliteit.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+      color: #e5e7eb;
+    }
+
+    header {
+      background: #000000;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+
+    h1 { font-size: 32px; margin: 0; }
+
+    @media (min-width:768px) {
+      h1 { font-size: 44px; }
+    }
+
+    .container {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 30px;
+      border-radius: 18px;
+      text-align: center;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .section { margin-bottom: 80px; }
+
+    .highlight {
+      background:#1e293b;
+      padding:40px;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,0.1);
+    }
+
+    .cta-btn {
+      margin-top: 25px;
+      padding: 15px 30px;
+      background:#10b981;
+      color:white;
+      border:none;
+      border-radius:10px;
+      font-size:16px;
+      cursor:pointer;
+    }
+
+    .cta-btn:hover {
+      background:#059669;
+    }
+
+    footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    input, textarea {
+      width:100%;
+      padding:12px;
+      margin-top:10px;
+      border-radius:8px;
+      border:1px solid #ccc;
+    }
+
+    form { max-width:500px; margin:auto }
+
+  a {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="VelourClean logo" style="max-width:400px; width:100%; height:auto; margin-bottom:20px; filter: drop-shadow(0 0 50px rgba(16,185,129,0.8)) drop-shadow(0 0 80px rgba(16,185,129,0.6));">
+  <h1>Premium schoonmaakdiensten voor woningen en vakntiehuizen</h1>
+  <p style="margin-top:20px; font-size:18px;">Vraag vandaag nog een gratis offerte aan</p>
+  <a href="#contact">
+    <button class="cta-btn">Offerte aanvragen</button>
+  </a>
+</header>
+
+<div class="container">
+
+ <div class="section">
+  <h2>Onze diensten</h2>
+  <div class="grid">
+
+    <a href="vakantie.html">
+      <div class="card">
+        <h3>Vakantiehuis Schoonmaak</h3>
+        <p>Luxe en grondige reiniging van uw vakantiehuis.</p>
+      </div>
+    </a>
+
+    <a href="woonhuis.html">
+      <div class="card">
+        <h3>Woonhuis Schoonmaak</h3>
+        <p>Luxe reiniging van uw woonhuis voor een perfecte woonplek.</p>
+      </div>
+    </a>
+
+    <a href="oplevering.html">
+      <div class="card">
+        <h3>Oplevering & Renovatie</h3>
+        <p>Tot in detail schoon na verbouwing of verhuizing.</p>
+      </div>
+    </a>
+
+  </div>
+</div>
+
+  <div class="section highlight">
+    <h2>Waarom VelourClean?</h2>
+    <ul>
+      <li>✔ Premium kwaliteit</li>
+      <li>✔ Betrouwbaar en discreet</li>
+      <li>✔ Flexibele planning</li>
+      <li>✔ 100% tevredenheidsgarantie</li>
+    </ul>
+  </div>
+
+ 
+  <div class="section" id="contact">
+    <h2>Contactformulier</h2>
+    <form action="https://formspree.io/f/mnjorkek" method="POST">
+      <input type="text" name="naam" placeholder="Naam" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="text" name="telefoon" placeholder="Telefoon">
+      <textarea name="bericht" rows="4" placeholder="Uw bericht"></textarea>
+      <button type="submit" class="cta-btn">Verstuur aanvraag</button>
+    </form>
+  </div>
+
+  <div class="section">
+    <h2>Werkgebied</h2>
+    <p>Noordwijk en omgeving</p>
+  </div>
+
+</div>
+
+<footer>
+  <h2>Contact</h2>
+  <p>📞 <a href="tel:+31616198014" style="color:white;">+31 6 16 19 80 14</a></p>
+  <p>✉️ <a href="mailto:velourclean@hotmail.com" style="color:white;">velourclean@hotmail.com</a></p>
+  <p>KVK <a href="kvk nummer" style="color:white;">42067009</a></p>
+  <p>BTW id <a href="BTW id" style="color:white;">nummer</a></p>
+  <p style="margin-top:20px; font-size:14px; opacity:0.7">© 2026 VelourClean.nl</p>
+</footer>
+
+</body>
+</html>
